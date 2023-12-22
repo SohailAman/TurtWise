@@ -1,8 +1,22 @@
+import { Outlet, Navigate } from "react-router-dom";
 
-
-function AuthLayout() {
+const AuthLayout = () => {
+  const isAuth = false;
   return (
-    <div>AuthLayout</div>
+    <>
+      {
+        isAuth?(
+          <Navigate to="/" />
+        ): (
+          <>
+            <section>
+              <Outlet />
+            </section>
+          </>
+        )
+      }
+    </>
+    
   )
 }
 
