@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 const Topbar = () => {
   return (
     <>
-        <div className="absolute w-screen h-16 px-6 py-3.5 bg-white border-b border-neutral-200 justify-between items-start inline-flex z-20">
+        <div className="topbar-container">
         <div className="w-96 self-stretch justify-start items-center flex">
             <Link to="/" className="pr-2.5 justify-start items-center gap-2.5 flex">
                 <div className="w-14 h-8 relative">

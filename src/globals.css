@@ -10,7 +10,7 @@
   }
 
   body {
-    @apply bg-dark-1 text-white min-h-screen font-inter;
+    @apply bg-white text-dark-1 min-h-screen font-inter;
   }
 }
 
@@ -236,8 +236,13 @@
   }
 
   /* Topbar */
-  .topbar {
-    @apply sticky top-0 z-50 md:hidden bg-dark-2 w-full;
+  .topbar-container {
+    @apply absolute w-full h-16 px-6 py-3.5 bg-white border-b border-neutral-200 justify-between items-start inline-flex z-20;
+  }
+
+  /* SideNavbar */
+  .sidenavbar-container {
+    @apply absolute w-20 h-full pb-32 bg-white border border-zinc-100 border-opacity-95 justify-start items-start inline-flex z-10;
   }
 
   /* User card */

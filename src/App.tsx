@@ -3,7 +3,7 @@ import { Routes,Route } from 'react-router-dom';
 import './globals.css';
 import Signin from './_auth/forms/Signin';
 import Signup from './_auth/forms/Signup';
-import {Dashboard} from './_root/pages';
+import {Dashboard, Project, Arena, Charts, Logs, Scans, ScanSummary, Sim} from './_root/pages';
 import AuthLayout from './_auth/AuthLayout';
 import MainLayout from './_root/MainLayout';
 
@@ -21,6 +21,13 @@ const App = () => {
             {/* private routes */}
             <Route element={<MainLayout />}>
                 <Route index element={<Dashboard />}/>
+                <Route path="/Project" element={<Project />}/>
+                <Route path="/Arena" element={<Arena />}/>
+                <Route path="/Charts" element={<Charts />}/>
+                <Route path="/Logs" element={<Logs />}/>
+                <Route path="/Scans" element={<Scans />}/>
+                <Route path="/Scan-Summary" element={<ScanSummary />}/>
+                <Route path="/Sim" element={<Sim />}/>
             </Route>
 
         </Routes>

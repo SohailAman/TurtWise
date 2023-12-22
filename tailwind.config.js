@@ -33,6 +33,9 @@ module.exports = {
         'light-2': '#EFEFEF',
         'light-3': '#7878A3',
         'light-4': '#5C5C7B',
+        'hover-bg': '#E6F3F5',
+        'hover-text': '#455B66',
+        'text-normal': '#90A4AF',
       },
       screens: {
         'xs': '480px',
