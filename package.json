@@ -6,7 +6,7 @@
   "homepage": "https://SohailAman.github.io/TurtWise",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "clean": "rimraf node_modules && rimraf build && rimraf .cache",
     "dev": "vite",
     "build": "tsc && vite build",
