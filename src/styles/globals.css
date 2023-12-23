@@ -144,7 +144,7 @@
   }
 
   .home-creators {
-    @apply hidden xl:flex flex-col w-72 2xl:w-465 px-6 py-10 gap-10  overflow-scroll custom-scrollbar;
+    @apply hidden xl:flex flex-col w-72 2xl:w-465 px-6 py-10 gap-10 overflow-scroll custom-scrollbar;
   }
 
   /* Post Details */
@@ -165,7 +165,7 @@
   }
 
   .post_details-delete_btn {
-    @apply p-0 flex gap-3 hover:bg-transparent hover:text-light-1  text-light-1 small-medium lg:base-medium;
+    @apply p-0 flex gap-3 hover:bg-transparent hover:text-light-1 text-light-1 small-medium lg:base-medium;
   }
 
   /* Profile */
@@ -178,7 +178,7 @@
   }
 
   .profile-tab {
-    @apply flex-center gap-3 py-4 w-48 bg-dark-2  transition flex-1 xl:flex-initial;
+    @apply flex-center gap-3 py-4 w-48 bg-dark-2 transition flex-1 xl:flex-initial;
   }
 
   /* Saved */
@@ -237,12 +237,12 @@
 
   /* Topbar */
   .topbar-container {
-    @apply absolute w-full h-16 px-6 py-3.5 bg-white border-b border-neutral-200 justify-between items-start inline-flex z-20;
+    @apply absolute lg:w-noScroll w-full h-16 px-6 py-3.5 bg-white border-b border-neutral-200 justify-between items-start inline-flex z-20;
   }
 
   /* SideNavbar */
   .sidenavbar-container {
-    @apply absolute w-20 h-full pb-32 bg-white border border-zinc-100 border-opacity-95 justify-start items-start inline-flex z-10;
+    @apply md:sticky md:top-16 md:mt-0 mt-20 md:w-20 w-full h-full md:pb-32 bg-white border border-zinc-100 border-opacity-95 justify-start items-start inline-flex z-10;
   }
 
   /* User card */
