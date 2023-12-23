@@ -45,6 +45,7 @@ module.exports = {
         420: "420px",
         465: "465px",
         noScroll: "calc(100% - 16px)",
+        innerTab: "calc(100% - 12px )",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

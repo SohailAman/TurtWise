@@ -1,9 +1,13 @@
 import { NavLink, useLocation } from "react-router-dom";
-import { sidebarLinks } from "../../constants";
+import { projectSidebarLinks, homeSidebarLinks } from "../../constants";
 import { INavLink } from "../../types";
 
 const Sidebar = () => {
   const { pathname } = useLocation();
+
+  const sidebarLinks = pathname.startsWith("/project")
+    ? projectSidebarLinks
+    : homeSidebarLinks;
   return (
     <nav>
       <div className="sidenavbar-container overflow-x-scroll md:overflow-x-visible md:pb-0 pb-4">

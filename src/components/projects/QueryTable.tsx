@@ -88,7 +88,7 @@ const QueryTable = () => {
                 <div className="flex md:gap-[10px] gap-2 whitespace-nowrap items-start">
                   <span>TW Score</span>
                   <img
-                    src={"../../../public/assets/info.svg"}
+                    src={"/assets/info.svg"}
                     className="h-[12px] w-[12px]"
                     alt=""
                   />
@@ -101,7 +101,7 @@ const QueryTable = () => {
                 <div className="flex md:gap-[10px] gap-2 whitespace-nowrap items-start justify-center">
                   <span>Faithfulness</span>
                   <img
-                    src={"../../../public/assets/info.svg"}
+                    src={"/assets/info.svg"}
                     className="h-[12px] w-[12px]"
                     alt=""
                   />
@@ -114,7 +114,7 @@ const QueryTable = () => {
                 <div className="flex md:gap-[10px] gap-2 whitespace-nowrap items-start justify-center">
                   <span>Context Relevancy</span>
                   <img
-                    src={"../../../public/assets/info.svg"}
+                    src={"/assets/info.svg"}
                     className="h-[12px] w-[12px]"
                     alt=""
                   />
@@ -127,7 +127,7 @@ const QueryTable = () => {
                 <div className="flex md:gap-[10px] gap-2 whitespace-nowrap items-start justify-center">
                   <span>Answer Relevancy</span>
                   <img
-                    src={"../../../public/assets/info.svg"}
+                    src={"/assets/info.svg"}
                     className="h-[12px] w-[12px]"
                     alt=""
                   />
